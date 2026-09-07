@@ -122,27 +122,10 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
-  transform: translate(-10%, -65%);
-}
-
-.kundedropdownEN {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  background-color: #3a3a7e;
-  border-radius: 0.8rem;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-bottom: 5px;
-  transform: translate(-35%, -65%);
+  transform: translate(-5%, -65%);
 }
 
 .kundedropdown a {
-  padding-top: 5px;
-  text-align: center;
-}
-
-.kundedropdownEN a {
   padding-top: 5px;
   text-align: center;
 }
@@ -169,27 +152,10 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
-  transform: translate(0%, -65%);
-}
-
-.kontaktosdropdownEN {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  background-color: #3a3a7e;
-  border-radius: 0.8rem;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-bottom: 5px;
-  transform: translate(-15%, -65%);
+  transform: translate(-5%, -65%);
 }
 
 .kontaktosdropdown a {
-  padding-top: 5px;
-  text-align: center;
-}
-
-.kontaktdropdownEN a {
   padding-top: 5px;
   text-align: center;
 }

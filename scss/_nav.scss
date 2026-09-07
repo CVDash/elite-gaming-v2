@@ -148,20 +148,10 @@ display: block;
     padding-left:10px;
     padding-right:10px;
     padding-bottom:5px;
-    transform: translate(-10%,-65%);
+    transform: translate(-5%,-65%);
 }
 
-.kundedropdownEN {
-    display: none;
-    flex-direction:column;
-    position:absolute;
-    background-color: #3a3a7e;
-    border-radius: 0.8rem;
-    padding-left:8px;
-    padding-right:8px;
-    padding-bottom:5px;
-    transform: translate(-35%,-65%);
-}
+
 
 
 .kundedropdown a {
@@ -170,11 +160,7 @@ display: block;
     
 }
 
-.kundedropdownEN a {
-    padding-top: 5px;
-    text-align: center;
-    
-}
+
 
 
 .kundecontainer:hover .kundedropdown {
@@ -210,20 +196,10 @@ display: block;
     padding-left:10px;
     padding-right:10px;
     padding-bottom:5px;
-    transform: translate(0%,-65%);
+    transform: translate(-5%,-65%);
 }
 
-.kontaktosdropdownEN {
-    display: none;
-    flex-direction:column;
-    position:absolute;
-    background-color: #3a3a7e;
-    border-radius: 0.8rem;
-    padding-left:8px;
-    padding-right:8px;
-    padding-bottom:5px;
-    transform: translate(-15%,-65%);
-}
+
 
 
 .kontaktosdropdown a {
@@ -232,11 +208,7 @@ display: block;
     
 }
 
-.kontaktdropdownEN a {
-    padding-top: 5px;
-    text-align: center;
-    
-}
+
 
 
 .kontaktoscontainer:hover .kontaktosdropdown {
