@@ -104,11 +104,11 @@
 @media only screen and (max-width:1810px) {
 
     .kontaktcontainer img {
-        max-width: 400px;
+        max-width: 600px;
     }
 
     .kontakt1, .kontakt2, .kontakt3, .kontakt4{
-        max-width: 400px;
+        max-width: 600px;
     }
 
     .kontakt1 h2, .kontakt2 h2, .kontakt3 h2, .kontakt4 h2  {
@@ -123,11 +123,11 @@
 @media only screen and (max-width:1366px)
 {
     .kontaktcontainer img {
-        max-width: 350px;
+        max-width: 500px;
     }
 
     .kontakt1, .kontakt2, .kontakt3, .kontakt4{
-        max-width: 350px;
+        max-width: 500px;
     }
 
     .kontakt1 h2, .kontakt2 h2, .kontakt3 h2, .kontakt4 h2  {
@@ -142,71 +142,13 @@
 
 /*------------------------------------------------------------------------------------------------*/
 
-/*Kode til kontaktsiden når skærmstørrelsen er lige med eller mindre end 1280px*/
-
-@media only screen and (max-width:1280px)
-{
-    .kontaktcontainer img {
-        max-width: 300px;
-    }
-
-    .kontakt1, .kontakt2, .kontakt3, .kontakt4 {
-        max-width: 300px;
-    }
-
- 
-}
-
-/*------------------------------------------------------------------------------------------------*/
-
-/*Kode til kontaktsiden når skærmstørrelsen er lige med eller mindre end 1100px*/
-
-@media only screen and (max-width:1100px)
-{
-    .kontaktcontainer img {
-        max-width: 250px;
-    }
-
-    .kontakt1, .kontakt2, .kontakt3, .kontakt4{
-        max-width: 250px;
-    }
-
-    .kontakt1 h2, .kontakt2 h2, .kontakt3 h2, .kontakt4 h2  {
-        font-size: 1rem;
-    }
-
-}
-
-/*------------------------------------------------------------------------------------------------*/
-
-/*Kode til kontaktsiden når skærmstørrelsen er lige med eller mindre end 980px*/
-
-@media only screen and (max-width:980px)
-{
-    .kontaktcontainer img {
-        max-width: 200px;
-    }
-
-    .kontakt1, .kontakt2, .kontakt3, .kontakt4 {
-        max-width: 200px;
-    }
-
-    .kontakt1 h2, .kontakt2 h2, .kontakt3 h2, .kontakt4 h2  {
-        font-size: 0.8rem;
-    }
-
-    .kontakt1 p, .kontakt2 p, .kontakt3 p, .kontakt4 p {
-        font-size: 0.8rem;
-    }
-}
-/*------------------------------------------------------------------------------------------------*/
 
 
 
 /*Kode til kontaktsiden når skærmstørrelsen er lige med eller mindre end 800px*/
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1279px) {
     .kontaktcontainer {
         align-items: center;
         justify-content: center;
@@ -215,18 +157,26 @@
 
     .kontaktcontainer img {
         max-width: 100%;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         
         
     }
-    .kontakt1, .kontakt2, .kontakt3, .kontakt4{
+    
+    .kontakt1{
         max-width: 100%;
-        border-top: 1px solid #c3d4cf;
         padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .kontakt2, .kontakt3, .kontakt4{
+        max-width: 100%;
+        border-top: 1px solid #f4c034;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .kontakt1 h2, .kontakt2 h2, .kontakt3 h2, .kontakt4 h2  {
         font-size: 2rem;
+        padding-top:10px;
     }
 
     .kontakt1 p, .kontakt2 p, .kontakt3 p, .kontakt4 p {
