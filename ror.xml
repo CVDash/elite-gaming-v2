@@ -45,9 +45,9 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.elitegaming.dk/omos</link>
-     <title>Om os - Elite Gaming</title>
-     <description>Om os - Elite Gaming</description>
+     <link>https://www.elitegaming.dk/blivkunde</link>
+     <title>Bliv kunde - Elite Gaming</title>
+     <description>Bliv kunde - Elite Gaming</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -197,9 +197,9 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.elitegaming.dk/omosEN</link>
-     <title>About us - Elite Gaming</title>
-     <description>About us - Elite Gaming</description>
+     <link>https://www.elitegaming.dk/blivkundeEN</link>
+     <title>Be a customer - Elite Gaming</title>
+     <description>Be a customer - Elite Gaming</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

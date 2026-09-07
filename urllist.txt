@@ -33,3 +33,16 @@ https://www.elitegaming.dk/myterogfaktaEN
 https://www.elitegaming.dk/behandlingEN
 https://www.elitegaming.dk/godevanerEN
 https://www.elitegaming.dk/spillevanerEN
+https://www.elitegaming.dk/galleri
+https://www.elitegaming.dk/galleriEN
+https://www.elitegaming.dk/historie
+https://www.elitegaming.dk/historieEN
+https://www.elitegaming.dk/kontaktlanding
+https://www.elitegaming.dk/kontaktlandingEN
+https://www.elitegaming.dk/produktlanding
+https://www.elitegaming.dk/produktlandingEN
+https://www.elitegaming.dk/kundelanding
+https://www.elitegaming.dk/kundelandingEN
+https://www.elitegaming.dk/findbutikEN
+https://www.elitegaming.dk/findbutik
+
