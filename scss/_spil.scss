@@ -1,0 +1,28 @@
+/*Kode til spil containeren*/
+
+.spilcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.spilcontainer img{
+    max-width: 800px;
+    max-height: 25rem;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Kode til hver enkelt spil element*/
+
+.spilelement {
+    padding-bottom: 50px;
+    width: 36rem;
+    text-align: center;
+    flex: 25%;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------*/
