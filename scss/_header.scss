@@ -3,7 +3,8 @@
 
 /*KODEN TIL HEADER VIDEOERS CONTAINER*/
 
-.videocontainer, .ansvarlighedvideocontainer, .kontaktvideocontainer, .produktvideocontainer{
+.videocontainer, .ansvarlighedvideocontainer, .kontaktvideocontainer, .produktvideocontainer, .blivkundevideocontainer, 
+.findbutikvideocontainer, .spilvideocontainer {
     width: 100%;
     height: 100%;
     position: relative;
@@ -60,10 +61,32 @@ border-radius: 10px;
     z-index: 1;
 }
 
+
+
 #videooverlay h1 {
     margin-bottom: 0;
 }
 
+.blivkundevideocontainer video {
+    object-fit: cover;
+    object-position: center 65%;
+    
+    z-index: 1;
+}
+
+.findbutikvideocontainer video {
+    object-fit: cover;
+    object-position: center 65%;
+    
+    z-index: 1;
+}
+
+.spilvideocontainer video {
+    object-fit: cover;
+    object-position: center 45%;
+    
+    z-index: 1;
+}
 /*------------------------------------------------------------------------------------------------*/
 
 /*RESPONSIV DEL AF HEADER, ÆNDRER STØRRELSE AF ORD NÅR SKÆRMSTØRRELSE ER MINDRE END 1180px, 720px og 440px*/
