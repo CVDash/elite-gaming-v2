@@ -8,7 +8,7 @@ Efter den skal du gå ind i VSCs terminal og geninstallere SASS med command " np
 
 Nu, hver gang du vil gerne ændre noget i CSS skal du skrive command " sass scss:css --watch " eller find den ned til venstre ind i NPM Scripts.
 
-Brug KUN de scss filer i folder " scss " til at ændre CSS på siden, alt du skriver in i dem skrives automatisk i main.css.
+Brug KUN de scss filer i folder " scss " til at ændre CSS på siden, alt du skriver ind i dem skrives automatisk i main.css.
 
 Hvis du vil gerne lave en ny scss fil skal navn skrives som " _navn.scss ", derefter skal du linkes den til det hele ved at gå ind i " main.scss " og skrive " @import "navn" ";
 
