@@ -7,3 +7,9 @@ Disallow: /pages/templatekontakt.html
 Disallow: /pages/checkingcookies.js
 Disallow: /pages/templateledigestillinger.html
 Disallow: /pages/404.html
+Disallow: /pages/kontaktlanding.html
+Disallow: /pages/kontaktlandingEN.html
+Disallow: /pages/kundelanding.html
+Disallow: /pages/kundelandingEN.html
+Disallow: /pages/produktlanding.html
+Disallow: /pages/produktlandingEN.html
