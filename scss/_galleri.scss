@@ -22,8 +22,26 @@
     width: 36rem;
     text-align: center;
     flex: 33.3%;
+    position: relative;
 }
 
+.gallerioverlay p {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    z-index: 0;
+}
+
+
+
+.galleri1 iframe, .galleri2 iframe, .galleri3 iframe, .galleri4 iframe, .galleri5 iframe, .galleri6 iframe, .galleri7 iframe, .galleri8 iframe, .galleri9 iframe {
+    z-index: 1;
+    position: relative;
+}
 
 
 /*------------------------------------------------------------------------------------------------*/

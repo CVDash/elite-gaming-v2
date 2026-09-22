@@ -1,0 +1,32 @@
+.findbutikheader {
+    font-size: 2rem;
+    background-color: #18183b;
+    margin: 0;
+    padding: 10px 10px;
+    text-align: center;
+    border-bottom:2px solid #f4c034;
+}
+
+.findbutikheader h3, h2, h1 {
+    color:#f4c034
+}
+
+.findbutikheader h1 {
+margin:0;
+padding: 20px 20px;
+font-size: 3rem;
+
+}
+
+.findbutikheader p, li, ul {
+    color: white;
+    margin:0;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.findbutikheader img {
+    width: 100%;
+    max-height: 300px;
+}
+

@@ -1967,11 +1967,28 @@ input[type=submit]:hover {
 
 /*------------------------------------------------------------------------------------------------*/
 /*Kode til hver enkelt galleri element*/
-.galleri1, .galleri2, .galleri3, .galleri4, .galleri5, .galleri6, .galleri7, .galleri8, .galleri9, .galler10 {
+.galleri1, .galleri2, .galleri3, .galleri4, .galleri5, .galleri6, .galleri7, .galleri8, .galleri9 {
   padding-bottom: 50px;
   width: 36rem;
   text-align: center;
   flex: 33.3%;
+  position: relative;
+}
+
+.gallerioverlay p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  z-index: 0;
+}
+
+.galleri1 iframe, .galleri2 iframe, .galleri3 iframe, .galleri4 iframe, .galleri5 iframe, .galleri6 iframe, .galleri7 iframe, .galleri8 iframe, .galleri9 iframe {
+  z-index: 1;
+  position: relative;
 }
 
 /*------------------------------------------------------------------------------------------------*/
@@ -2019,6 +2036,37 @@ input[type=submit]:hover {
 .flag-icon {
   position: relative;
   left: 10px;
+}
+
+.findbutikheader {
+  font-size: 2rem;
+  background-color: #18183b;
+  margin: 0;
+  padding: 10px 10px;
+  text-align: center;
+  border-bottom: 2px solid #f4c034;
+}
+
+.findbutikheader h3, h2, h1 {
+  color: #f4c034;
+}
+
+.findbutikheader h1 {
+  margin: 0;
+  padding: 20px 20px;
+  font-size: 3rem;
+}
+
+.findbutikheader p, li, ul {
+  color: white;
+  margin: 0;
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+.findbutikheader img {
+  width: 100%;
+  max-height: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
