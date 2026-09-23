@@ -13,3 +13,4 @@ Disallow: /pages/kundelanding.html
 Disallow: /pages/kundelandingEN.html
 Disallow: /pages/produktlanding.html
 Disallow: /pages/produktlandingEN.html
+Sitemap: /pages/sitemap.xml
