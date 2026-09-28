@@ -20,7 +20,7 @@ $subject = $_POST ['subject'];
 
 
 $stmt = $dbconnect->prepare("INSERT INTO kontakt_form (name, company, telephone, email, subject) VALUES (?, ?, ?, ?, ?)");
-$stmt->bind_param("sis", $name, $company, $telephone, $email, $subject);
+$stmt->bind_param($name, $company, $telephone, $email, $subject);
 $stmt->execute();
 
 if ($stmt->execute()) {
