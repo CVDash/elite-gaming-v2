@@ -19,12 +19,12 @@ $subject = $_POST ['subject'];
 }
 
 
-$stmt = $dbconnect->prepare("INSERT INTO kontakt_form (name, company, telephone, email, subject) VALUES (?, ?, ?)");
+$stmt = $dbconnect->prepare("INSERT INTO kontakt_form (name, company, telephone, email, subject) VALUES (?, ?, ?, ?, ?)");
 $stmt->bind_param("sis", $name, $company, $telephone, $email, $subject);
 $stmt->execute();
 
 if ($stmt->execute()) {
-echo "Thank you for your review.";
+echo "Tak, vi kontakter dig hurtigst muligt";
 } else {
 die("An error occured.");
 }
