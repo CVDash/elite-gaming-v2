@@ -20,7 +20,7 @@
     padding-bottom: 52px;
     width: 36rem;
     text-align: center;
-    flex: 25%;
+    flex: 33%;
     position:relative;
     
 }
@@ -45,6 +45,12 @@
     flex-wrap: wrap;
     height: 25rem;
     width: 23.5rem;
+}
+
+.spiloverlay p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2rem;
 }
 
 .spilelement:hover {

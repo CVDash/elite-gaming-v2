@@ -1,0 +1,27 @@
+Under hver side vil det være en header sektion dette ser sådan ud 
+
+<div class="header">
+        <div class="findbutikvideocontainer">
+        <div id="videooverlay">
+            <h1>Find en spillehal t&aelig;t p&aring; dig</h1>
+            <p></p>
+        </div>
+        <video autoplay muted loop width="100%" height="350px"><source src="img/findbutik.mp4">
+        </video>
+    </div>
+    </div>
+
+Hvis man vil gerne skifte videoen, skal man skifte kilden til den video ind i sources anførselstegn "" 
+
+f. eks. <source src="img/findbutik.mp4"> til <source src="img/produkter.mp4">
+
+Hvis man vil gerne skifte teksten, er tekst titlen imellem <h1></h1> og teksten imellem <p></p>
+
+Videoens class <div class=""></div> skal holdes som det er mest af tiden, men hvis man vil gerne skifte videoens position,
+kan man skrives ind en ny class og tage til _header.scss under /*KODEN TIL CENTERING AF HEADER VIDEOER PÅ ALLE SIDER*/, kopiere
+en af de container koder, skift deres navn til hvad du vil kalde den, og eksperimentere med den value det hedder object-position
+ligesom
+
+object-position: center 50%; 
+eller
+object-position: center 30%;
