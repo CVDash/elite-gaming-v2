@@ -3,7 +3,7 @@ $hostname = "mysql98.unoeuro.com";
 $username = "elitegaming_dk";
 $password = "AFT8XD14";
 $db = "elitegaming_dk_db_kontaktform";
-$file= "kontaktformtak.html"
+$file= "kontaktformtak.html";
 
 $dbconnect = mysqli_connect($hostname, $username, $password, $db);
 if (mysqli_connect_errno()) {
