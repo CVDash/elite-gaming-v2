@@ -26,7 +26,36 @@ function dropdownopen() {
     }
    }
 
-   
+   function laesmereopen() {
+    var a = document.getElementById("laesmeredropdown");
+     if (a.style.display === "block") {
+        a.style.display = "none";
+     } else {
+        a.style.display = "block";
+       }
+    
+
+    var b = document.getElementById("circle-right");
+     if (b.style.display === "none") {
+        b.style.display = "block";
+     } else {
+        b.style.display = "none";
+       }
+
+       var c = document.getElementById("circle-left");
+     if (c.style.display === "none") {
+        c.style.display = "block";
+     } else {
+        c.style.display = "none";
+       }
+
+       var d = document.getElementById("laesmereopen");
+     if (d.style.display === "none") {
+        d.style.display = "block";
+     } else {
+        d.style.display = "none";
+       }
+   }
 
 
  
